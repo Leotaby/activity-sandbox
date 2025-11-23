@@ -1,0 +1,33 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env/
+venv/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# C/C++ compiled objects and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+
+# Build directories for CMake or other tools
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
